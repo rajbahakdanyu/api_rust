@@ -3,9 +3,7 @@ name = "api_rust"
 version = "0.1.0"
 edition = "2021"
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
 [dependencies]
 tokio = { version = "1", features = ["full"] }
-ureq = { version = "2.4.0", features = ["json", "charset"] }
-serde_json = "1.0.79"
+ureq = { version = "2", features = ["json", "charset"] }
+serde_json = "1"
